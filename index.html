@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Carolina Trigo</h1>
+            <h2 class="cargo">Reverse engineering student</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">About me</h3>
+
+                    <div class="descricao">
+                        <p>Hey, I'm @hacknlearn!</p>
+
+                        <p>a reverse engineering and programming student. My main interests are: <span>computer architecture, 
+                            engineering, and low level stuff</span>.
+                            I'm practicing and playing CTF @ hackthebox with UHTeam.
+                        </p>
+
+                        <p>I like science, tech and art. </p>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Social Media</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://instagram.com/hacknlearn" target="_blank" class="instagram">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/h4cknlearn" target="_blank" class="github">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/hacknlearn" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
